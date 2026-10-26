@@ -1,146 +1,78 @@
-<!--
-  GitHub Profile README
-  Repository: YOUNES0101/YOUNES0101
--->
+# Younes Chemmaoui
 
-<div align="center">
+**Infrastructure · Networking · Security**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0D1117,50:102A43,100:164E63&text=Younes%20Chemmaoui&fontColor=E6EDF3&fontSize=42&fontAlignY=38&desc=Infrastructure%20%7C%20Networking%20%7C%20Security&descSize=16&descAlignY=58&animation=fadeIn" alt="Younes Chemmaoui — Infrastructure, Networking and Security" />
+I like building systems, understanding how they behave, and figuring out how to make them more secure and reliable.
 
-<a href="https://github.com/YOUNES0101">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Building+and+securing+infrastructure;Automating+the+things+that+shouldn't+be+manual;Learning+by+building%2C+testing+and+breaking;Turning+logs+into+useful+signals" alt="A short introduction to my technical interests" />
-</a>
-
-<br/>
-
-<a href="https://github.com/YOUNES0101">
-  <img src="https://img.shields.io/badge/GitHub-YOUNES0101-161B22?style=flat-square&logo=github&logoColor=white" alt="GitHub profile"/>
-</a>
-<img src="https://img.shields.io/badge/Focus-Infrastructure%20%26%20Security-123C69?style=flat-square" alt="Infrastructure and security focus"/>
-<img src="https://img.shields.io/badge/Mindset-Hands--on%20learning-116466?style=flat-square" alt="Hands-on learning"/>
-
-</div>
+My projects explore the intersection of Linux infrastructure, network security, automation, and observability. I learn by building practical environments, testing configurations, investigating failures, and documenting what I discover.
 
 ---
 
-## `$ whoami`
+## Featured work
 
-I like understanding what happens behind the scenes: how machines communicate, how infrastructure is put together, where security boundaries belong, and what happens when something goes wrong.
+### SAIP — Secure Autonomous Infrastructure Platform
 
-My interests sit at the intersection of **Linux, networking, infrastructure automation, and cybersecurity**. I learn by building labs, experimenting with configurations, investigating failures, and documenting what I discover.
+*A hands-on infrastructure and security lab.*
 
-I care about understanding how the pieces fit together — not just getting a tool to work.
+Exploring how to deploy and operate a segmented infrastructure on bare-metal Proxmox, with security controls and monitoring integrated into the design.
 
-## `$ ls ./projects`
+- **Network architecture:** isolated management, server, DMZ, and monitoring zones, controlled through an nftables gateway.
+- **Infrastructure automation:** Terraform for provisioning and Ansible for configuration and hardening.
+- **Observability:** Prometheus and Grafana for metrics, Loki for logs, and Wazuh for security monitoring.
+- **Validation:** controlled scenarios involving service failures, SSH brute-force attempts, resource anomalies, and configuration drift.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Technologies**
 
-<h3>🛡️ SAIP</h3>
+`Proxmox VE` · `Linux` · `nftables` · `Terraform` · `Ansible` · `Wazuh` · `Prometheus` · `Grafana`
 
-<strong>Secure Autonomous Infrastructure Platform</strong>
+[Explore the SAIP project](https://github.com/YOUNES0101)
 
-A hands-on infrastructure lab exploring how to deploy, isolate, secure, and monitor services on a bare-metal Proxmox environment.
+### Firewall Security
 
-- Segmented network zones and an nftables gateway
-- Infrastructure provisioning with Terraform
-- Linux configuration and hardening with Ansible
-- Metrics, logs, and security monitoring
-- Controlled failure and attack simulations
+*A desktop application for inspecting and filtering network traffic.*
 
-<br/>
+Captures packets in real time and applies configurable filtering rules, with a live view of allowed and blocked traffic and persistent history.
 
-<strong>Core stack</strong>
+- Packet capture using Pcap4J.
+- Rule engine built around the Strategy design pattern.
+- Filtering by IP address, port, protocol, and packet size.
+- MySQL persistence through Hibernate/JPA.
 
-`Proxmox` `Linux` `Terraform` `Ansible` `nftables` `Wazuh` `Prometheus` `Grafana`
+**Technologies**
 
-</td>
-<td width="50%" valign="top">
+`Java 21` · `JavaFX` · `Pcap4J` · `Hibernate` · `MySQL` · `Docker`
 
-<h3>🔥 Firewall Security</h3>
+[View the source code and project details](https://github.com/YOUNES0101/Firewall-Security)
 
-<strong>Java-based packet filtering application</strong>
+### Cybersecurity Portfolio
 
-A desktop application for capturing network packets, applying configurable filtering rules, and inspecting allowed and blocked traffic in real time.
+A collection of practical exercises, investigations, and technical notes documenting my cybersecurity learning and experiments.
 
-- Live packet capture with Pcap4J
-- Rule engine using the Strategy pattern
-- Filtering by IP, port, protocol, and packet size
-- Traffic history stored in MySQL
-- Hibernate/JPA persistence
-
-<br/>
-
-<a href="https://github.com/YOUNES0101/Firewall-Security">
-  <img src="https://img.shields.io/badge/Explore%20repository-58A6FF?style=flat-square&logo=github&logoColor=white" alt="Explore Firewall Security repository"/>
-</a>
-
-<strong>Core stack</strong>
-
-`Java 21` `JavaFX` `Pcap4J` `Hibernate` `MySQL` `Docker`
-
-</td>
-</tr>
-</table>
-
-### 🧪 Cybersecurity Portfolio
-
-A place for hands-on cybersecurity exercises, technical notes, investigations, and lessons learned.
-
-<a href="https://github.com/YOUNES0101/cybersecurity-portfolio">
-  <img src="https://img.shields.io/badge/View%20repository-161B22?style=flat-square&logo=github&logoColor=white" alt="View cybersecurity portfolio"/>
-</a>
+[Explore the cybersecurity portfolio](https://github.com/YOUNES0101/cybersecurity-portfolio)
 
 ---
 
-## `$ cat ./toolbox`
+## Technical interests
 
-**Infrastructure & automation**
+| Area | Technologies and concepts |
+|---|---|
+| Infrastructure | Linux, Proxmox VE, virtualization |
+| Network security | nftables, network segmentation, SSH hardening |
+| Automation | Terraform, Ansible, Docker |
+| Security monitoring | Wazuh, SIEM, log analysis |
+| Observability | Prometheus, Grafana, Loki, Alertmanager |
+| Development | Java, Python, Django, SQL |
 
-<p>
-<img src="https://skillicons.dev/icons?i=linux,bash,docker,ansible,terraform,git" alt="Linux, Bash, Docker, Ansible, Terraform and Git" />
-</p>
-
-**Security & observability**
-
-<p>
-<img src="https://img.shields.io/badge/Proxmox%20VE-E57000?style=flat-square&logo=proxmox&logoColor=white" alt="Proxmox VE"/>
-<img src="https://img.shields.io/badge/nftables-Network%20Firewall-334155?style=flat-square" alt="nftables"/>
-<img src="https://img.shields.io/badge/Wazuh-SIEM-5C4EE5?style=flat-square" alt="Wazuh"/>
-<img src="https://skillicons.dev/icons?i=prometheus,grafana" alt="Prometheus and Grafana"/>
-<img src="https://img.shields.io/badge/Loki-Log%20Aggregation-F5A623?style=flat-square" alt="Grafana Loki"/>
-</p>
-
-**Software development**
-
-<p>
-<img src="https://skillicons.dev/icons?i=java,python,django,mysql,postgres" alt="Java, Python, Django, MySQL and PostgreSQL"/>
-</p>
+I prefer understanding why a tool belongs in an architecture, how its components interact, and how to verify that the result works.
 
 ---
 
-## `$ current_direction`
+## Beyond the code
 
-Exploring how infrastructure, security, and automation work together — from configuring a Linux host to observing network traffic and investigating suspicious activity.
+Build a lab. Test an assumption. Investigate a failure. Document the result.
 
-Always building something, testing an assumption, or learning a better way to do things.
+That's the approach I bring to my projects, and the reason I enjoy working at the intersection of infrastructure, networking, and security.
 
-<div align="center">
+---
 
-### Connect
-
-<a href="https://github.com/YOUNES0101">
-  <img src="https://img.shields.io/badge/GitHub-Explore%20my%20work-161B22?style=for-the-badge&logo=github" alt="GitHub"/>
-</a>
-<a href="https://www.linkedin.com/">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-
-<br/><br/>
-
-<sub>Build it. Understand it. Secure it. Improve it.</sub>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:164E63,100:0D1117&height=90&section=footer" alt=""/>
-
-</div>
+[GitHub](https://github.com/YOUNES0101) · [Firewall Security](https://github.com/YOUNES0101/Firewall-Security) · [Cybersecurity Portfolio](https://github.com/YOUNES0101/cybersecurity-portfolio)
